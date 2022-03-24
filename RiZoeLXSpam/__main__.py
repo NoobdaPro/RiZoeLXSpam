@@ -23,7 +23,7 @@ for name in files:
         load_plugins(plugin_name.replace(".py", ""))
 
 print("RiZoeL Bot Spam Successfully deployed -!")
-print("Enjoy! Do visit @RiZoeLX")
+print("Enjoy!")
 
 if len(argv) not in (1, 3, 4):
     try:
