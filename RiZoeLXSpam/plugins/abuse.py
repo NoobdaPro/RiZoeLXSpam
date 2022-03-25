@@ -99,6 +99,7 @@ async def _(e):
                 caption28 =f"😂"
                 caption29 =f"__EK RUPAY KI PEPSI {name} KI NAANI SEXYY__"
                 caption30 =f"{name} **ISKI BHEN MERI PERSONAL HE MENE BOHOT CHODAA HE USKO__ \n\n __DM {name} FOR PERSONAL RANDI__"
+                caption31 =f"{name} **Teri Gaand mein Baseball bat\n\nKam rahe to sariya le lio😂"
                 fuk = e.chat_id
                 async with e.client.action(fuk, "typing"):
                         await e.client.send_message(fuk, caption1)
@@ -160,6 +161,8 @@ async def _(e):
                         await e.client.send_message(fuk, caption29)
                         await asyncio.sleep(0.3)
                         await e.client.send_message(fuk, caption30)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(fuk, caption31)
                         await asyncio.sleep(0.3)
 
         else:
